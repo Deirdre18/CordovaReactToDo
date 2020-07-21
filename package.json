@@ -1,37 +1,76 @@
-{"name":"helloworld",
-"displayName":"HelloCordova",
-"version":"1.0.0",
-"description":"A sample Apache Cordova application that responds to the deviceready event.",
-"main":"index.js", 
-"homepage":"./",
-"dependencies":{
-"@testing-library/jest-dom":"^5.11.0",
-"@testing-library/react":"^10.4.3",
-"@testing-library/user-event":"^12.0.11",
-"axios":"^0.19.2",
-"cordova-android":"^8.1.0",
-"react":"^16.13.1",
-"react-dom":"^16.13.1",
-"react-router-dom":"^5.2.0",
-"react-scripts":"3.4.1",
-"rimraf":"^3.0.2",
-"uuid":"^8.2.0"},
-"scripts":{
-"start":"react-scripts start",
-"build":"react-scripts build",
-"test":"react-scripts test",
-"eject":"react-scripts eject"
-},
-"browserslist":{
-"production":[">0.2%","not dead","not op_mini all"],
-"development":["last 1 chrome version","last 1 firefox version","last 1 safari version"]},
-"devDependencies":
-{"lodash":"^4.17.19",
-"cordova-plugin-whitelist":"1"
-},
-"keywords":["ecosystem:cordova"],
-"author":"Apache Cordova Team",
-"license":"Apache-2.0",
-"cordova":{
-"plugins":{"cordova-plugin-whitelist":{}}}
+{
+  "name": "helloworld",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "homepage": "./",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.0.11",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "cordova-android": "^9.0.0",
+    "cordova-browser": "^6.0.0",
+    "npm-check-updates": "^7.0.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "rimraf": "^3.0.2",
+    "uuid": "^8.2.0"
+  },
+  "@popperjs/core": "^2.4.4",
+  "bootstrap": "^4.5.0",
+  "cordova-android": "^9.0.0",
+  "cordova-plugin-badge": "^0.8.8",
+  "cordova-plugin-device": "^2.0.3",
+  "cordova-plugin-local-notification": "^0.9.0-beta.2",
+  "npm": "^6.14.6",
+  "prop-types": "^15.6.2",
+  "react": "^16.13.1",
+  "react-bootstrap": "^1.2.2",
+  "react-dom": "^16.13.1",
+  "react-popper": "^2.2.2",
+  "react-scripts": "^3.4.1",
+  "rimraf": "^3.0.2",
+  "semantic-ui-css": "^2.4.1",
+  "semantic-ui-react": "^0.88.2",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "lodash": "^4.17.19",
+    "cordova-plugin-whitelist": "1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
 }
